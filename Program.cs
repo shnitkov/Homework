@@ -1,9 +1,9 @@
-﻿// Задание 2: Напишите программу, которая на вход принимает два числа и выдает, какое число большее, а какое меньшее.
+﻿Console.WriteLine("Введите число: ");
 int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-if (a < d)
+if (a % 2 == 0)
 {
-    Console.WriteLine(b);
+    Console.WriteLine("Да");
 }else{
-    Console.WriteLine(a);
+    Console.WriteLine("Нет");
 }
+// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)
